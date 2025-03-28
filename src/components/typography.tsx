@@ -5,5 +5,5 @@ export function Title({ children }: { children: React.ReactNode }) {
 }
 
 export function Subtitle({ children }: { children: React.ReactNode }) {
-  return <h2 className="text-2xl font-bold">{children}</h2>;
+  return <h2 className="text-2xl font-bold tracking-tight">{children}</h2>;
 }

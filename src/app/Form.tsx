@@ -42,7 +42,7 @@ export function FormLabel({
 }
 
 export function FormInput(props: React.InputHTMLAttributes<HTMLInputElement>) {
-  return <input {...props} className="mt-1 border-b min-w-0" />;
+  return <input {...props} className="mt-1 border-b" />;
 }
 
 export function CombinedFields({ children }: { children: React.ReactNode }) {
